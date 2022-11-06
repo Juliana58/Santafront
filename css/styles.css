@@ -7,16 +7,10 @@ body{
   background-position:50% 50%;
   font-family: sans-serif;
 }
-.titulo{
-  text-align: center ;
-  text-decoration-line: underline;
-  height:30%;
-  color:#F04343 ;
-  background-color:white;
-}
 .segundo{
   background-color: #43F0BC;
   text-decoration:underline;
+  text-align: justify;
 }
 html{
   font-weight:100%;
@@ -33,10 +27,9 @@ html{
   background-color:#E5E7E9 ;
 }
 .media{
-  border-style:solid ;
   text-align: left;
   font-size:20px;
-   background-image:url(../imagenes/fondo/juli.jpg);
+  background-image:url(../imagenes/fondo/juli.jpg);
 
 }
 .claro{
@@ -54,5 +47,56 @@ html{
 }
 .map{
   width: 450px;
-  height: 200px;
+  height: 300px;
+
+}
+.video{
+  width: 300px;
+  height: 300px;
+}
+
+header{
+  text-align: center ;
+  text-decoration-line: underline;
+  height:30%;
+  color:#F04343 ;
+  background-color:white;
+  border:dashed 1px black;
+}
+nav{
+  background-color:#CDDEF1;
+  border: solid;
+  height: 100px;
+  text-align: justify;
+}
+#objeto1{
+  background-color: #E3CF8A;
+  border:solid;
+  height: 150px;
+  overflow: auto;
+}
+#objeto2{
+  background-color: #61ED9D;
+  border:solid;
+}
+aside{
+  background-color:green;
+  border:solid;
+}
+footer{
+  background-color:grey;
+  border:dotted 1px;
+}
+.iconowhats{
+  width:60px;
+  position: fixed;
+  bottom:10px;
+  right:30px;
+}
+.logo{
+  width:60px;
+}
+.contact{
+  background-color:white
+
 }
