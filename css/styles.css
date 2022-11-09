@@ -1,5 +1,4 @@
 body{
-
   background-image: url(../imagenes/fondo/mundo.jpg);
   background-repeat: no-repeat;
   background-size:cover;
@@ -10,7 +9,9 @@ body{
 .segundo{
   background-color: #43F0BC;
   text-decoration:underline;
-  text-align: justify;
+  height:30px;
+  text-align: center;
+  font-size:20px;
 }
 html{
   font-weight:100%;
@@ -19,7 +20,7 @@ html{
 .modo{
   text-align: left;
   font-family: Signika;
-  font-size: 22px;
+  font-size: 18px;
   font-style: normal;
   font-variant: normal;
   font-weight: bold;
@@ -27,9 +28,9 @@ html{
   background-color:#E5E7E9 ;
 }
 .media{
-  text-align: left;
-  font-size:20px;
-  background-image:url(../imagenes/fondo/juli.jpg);
+  font-size:18px;
+  background-color: red;
+  text-align: justify;
 
 }
 .claro{
@@ -37,13 +38,14 @@ html{
   margin: 10px;
   float: left;
   width: 200px;
-  height: 200px;
+  height: 250px;
 }
 .lista{
   font-family:"Times New Roman", Times, serif;;
   text-align:justify;
   color: #000000;
-  font-size:20px;
+  font-size:16px;
+
 }
 .map{
   width: 200px;
@@ -62,6 +64,12 @@ header{
   color:#F04343 ;
   background-color:white;
   border:dashed 1px black;
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-wrap: wrap;
+}
+img{width: 150px;
 }
 nav{
   background-color:#CDDEF1;
@@ -70,35 +78,96 @@ nav{
   text-align: justify;
 }
 #objeto1{
+
   background-color: #E3CF8A;
   border:solid;
-  height: 150px;
-  overflow: auto;
-}
-#objeto2{
-  background-color: #61ED9D;
-  border:solid;
-}
-aside{
-  background-color:green;
-  border:solid;
-  height:150;
-}
-footer{
-  background-color:grey;
-  border:dotted 1px;
+  height: 200px;
+
 
 }
-.iconowhats{
+main{
+  display: flex;
+  justify-content:center;
+}
+#objeto2{
+
+  background-color: #61ED9D;
+  border:solid;
+  width: 250px;
+  height: 250px;
+  overflow: auto;
+
+}
+.caja1{
+  font-size:16px;
+  background-color:white;
+  width:700px;
+  height: 250px;
+  border:solid red 2px;
+  overflow: auto;
+
+}
+aside{
+  background-color: lightblue;
+  border:solid;
+  height:150;
+  display: flex;
+  align-items:center;
+  justify-content:space-around;
+}
+footer{
+  width: 100%;
+  height: 150%;
+  background-color:white;
+  border:dotted 1px;
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-wrap:wrap;
+}
+/*.iconowhats{
   width:60px;
   position: fixed;
   bottom:10px;
   right:30px;
-}
+}*/
 .logo{
+
   width:60px;
 }
-.contact{
-  background-color:white
+
+.redes{
+  display: flex;
+  background-color:#808080;
+  width:300px;
+  height:80px;
+  justify-content:center;
+  justify-content:space-between;
+  align-items:center;
+
+}
+.redes2{
+  display: flex;
+  background-color:#808080;
+  width:300px;
+  height:80px;
+  justify-content:center;
+  justify-content:space-around;
+  align-items:center;
+
+
+}
+.info{
+
+  background-color:grey;
+  width:250px;
+  height:80px;
+
+  font-size:12px;
+}
+.mapa{
+
+  width:250px;
+  height:80px;
 
 }
