@@ -33,13 +33,14 @@ html{
   font-weight: bold;
   color:#E67E22;
   background-color:#E5E7E9 ;
-  width: 90%;
-  height: 90%;
+  width: 70vw;
+  height: 65vh;
   margin: 1em;
-
+  overflow: hidden;
 }
 p{
   margin:1em;
+
 }
 .media{
   font-size:18px;
@@ -48,8 +49,8 @@ p{
 
 }
 .claro{
-  width: 35vw;
-  height: 50vh;
+  width: 30vw;
+  height: 65vh;
   margin: 1em;
 }
 .lista{
@@ -119,7 +120,7 @@ main{
 }
 .objeto2{
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   background-color: #808080;
   border:solid;
   width: 70%;
@@ -204,6 +205,7 @@ footer{
   height:60%;
   font-size:12px;
   font-family:'Signika', sans-serif;
+  text-align: left;
 }
 .mapa{
   width:30%;
