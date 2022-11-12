@@ -34,9 +34,10 @@ html{
   color:#E67E22;
   background-color:#E5E7E9 ;
   width: 70vw;
-  height: 65vh;
+  height: 60vh;
   margin: 1em;
-  overflow: hidden;
+  overflow: auto;
+  word-wrap: break-word;
 }
 p{
   margin:1em;
@@ -50,7 +51,7 @@ p{
 }
 .claro{
   width: 30vw;
-  height: 65vh;
+  height: 60vh;
   margin: 1em;
 }
 .lista{
@@ -181,7 +182,7 @@ footer{
   display: flex;
   justify-content: center;
   width:60%;
-  height: 62vh;
+  height: 60vh;
 }
 .logo{
   width:70%;
