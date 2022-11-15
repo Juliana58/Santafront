@@ -2,11 +2,14 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Blog de Recetas">
     <meta name="keywords" content="Recetas,Pescado">
     <meta name="author" content="Juliana Molina">
     <title>Recetas de comidas típicas de Santa Fe</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,10 +43,15 @@
 </nav>
 <br>
 <section id="objeto1">
+  <div class="subtitulo">
   <h2 class="segundo">El más sabroso chupin de Surubí santafesino</h2>
-<img class="claro2" src="./imagenes/comida/chupinsantafe.jpg" alt="chupin">
+  </div>
+  <div class="chupin">
+   <img class="img-chupin2" src="./imagenes/comida/chupinsantafe.jpg" alt="chupin">
+  </div>
+
   <br>
-  <div class="modo">
+  <div class="descrip">
     <p >
         El chupín tradicional consiste en estofar pescado con una salsa sencilla pero con mucho sabor.<br>
         En función de la zona donde se prepare, puede variar algún ingrediente, como por ejemplo el vino,
@@ -51,18 +59,17 @@
         se caracteriza por tener un sabor suave pero muy delicioso.
     </p>
   </div>
-  <div class="chupin">
-    <img class="claro" src="./imagenes/comida/chupin.jpg" alt="chupin">
+  <div class="receta-chupin">
+    <img class="img-chupin" src="./imagenes/comida/chupin.jpg" alt="chupin">
 
   </div>
 <br>
 </section>
 <br>
-<main>
+<main class="contenido">
 <section class="objeto2">
   <div class="caja1">
     <h3 class="media">Ingredientes</h3>
-
     <ul class="lista">
       <li>Surubí 5 postas</li>
       <li>Aceite de oliva</li>
@@ -107,6 +114,41 @@
 </aside>
 
 <br>
+<main class="container">
+
+       <section class="card-section">
+           <div class="row">
+               <div class="col-sm-12 col-md-6 col-lg-3 card" style="width: 12rem;">
+                   <img src="./imagenes/comida/chupinsantafe.jpg" class="card-img-top" alt="...">
+                   <div class="card-body">
+                     <h5 class="card-title">Chupín Santafesino</h5>
+                     <a href="https://cocinerosargentinos.com/pescados-y-mariscos/chupin-de-surubi-santafesino" target="_blank" class="btn btn-danger">Ir a la receta</a>
+                   </div>
+               </div>
+               <div class="col-sm-12 col-md-6 col-lg-3 card" style="width: 12rem;">
+                   <img src="./imagenes/comida/paraguayo.jpg" class="card-img-top" alt="...">
+                   <div class="card-body">
+                     <h5 class="card-title">Chupín de pescado Paraguayo</h5>
+                     <a href="https://comidasparaguayas.com/receta-chupin-de-pescado/" target="_blank" class="btn btn-danger">Ir a la receta</a>
+                   </div>
+               </div>
+               <div class="col-sm-12 col-md-6 col-lg-3 card" style="width: 12rem;">
+                   <img src="./imagenes/comida/peruana.jpg" class="card-img-top" alt="...">
+                   <div class="card-body">
+                     <h5 class="card-title">Chupín de pescado receta Peruana</h5>
+                     <a href="https://recetascocinaperuana.com/chupin-de-pescado-receta-peruana" target="_blank" class="btn btn-danger">Ir a la receta</a>
+                   </div>
+               </div>
+               <div class="col-sm-12 col-md-6 col-lg-3 card" style="width: 12rem;">
+                   <img src="./imagenes/comida/bolivia.jpg" class="card-img-top" alt="...">
+                   <div class="card-body">
+                     <h5 class="card-title">Chupín de pescado receta Boliviana</h5>
+                     <a href="https://recetasdebolivia.com/chupin-de-pescado/" target="_blank" class="btn btn-danger">Ir a la receta</a>
+                   </div>
+               </div>
+           </div>
+       </section>
+   </main>
 <footer>
 
    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13945.167247145491!2d-59.63404159888919!3d-29.097065123555513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x944eba76bff7dd1d%3A0x242a4f2c91c60205!2sTRANSPORTE%20TITO%20HIJO!5e0!3m2!1ses!2sar!4v1667873641852!5m2!1ses!2sar"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -123,5 +165,7 @@
 <p>Santa Fe</p>
 </div>
 </footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
