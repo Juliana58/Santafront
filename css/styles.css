@@ -181,9 +181,8 @@ p{
 
 aside{
   display: flex;
-  float: right;
-  background-color: #CDDEF1;
-  border:solid;
+  background-color: transparent;
+  border:transparent;
   width: 100%;
   height:25vh;
   align-items:left;
@@ -191,18 +190,22 @@ aside{
 }
 
 .map{
-  width: 50%;
-  height: 100%;
+  width: 40%;
+  height: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 
 }
 .video{
-  width: 50%;
-  height: 100%;
+  width: 40%;
+  height: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 footer{
   width: 100%;
   height: 30%;
-  background-color:white;
+  background-color:transparent;
   border:dotted 1px;
   display: flex;
   justify-content: center;
@@ -237,10 +240,12 @@ footer{
 .info{
   background-color:grey;
   width:30%;
-  height:60%;
+  height:50%;
   font-size:14px;
   font-family:'Signika', sans-serif;
   text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .mapa{
   width:30%;
@@ -314,8 +319,9 @@ footer{
  @media (min-width: 700px) {
   .imglogo{
     display:none;
-    width: 25%;
-    height: 20%;
+    width: 45%;
+    height: 15%;
+    margin: 0;
   }
   }
   @media (max-width: 700px) {
@@ -391,6 +397,6 @@ footer{
 .btn{
   width: 65%;
   height: 5vh;
-  font-size: 4px;
+  font-size: 8px;
 }
 }
