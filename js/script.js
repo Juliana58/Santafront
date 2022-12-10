@@ -13,6 +13,10 @@ function datos() {
             document.getElementById("nav-link").style.backgroundColor = "black";
             document.getElementById("nav-link").style.color = "black";
             document.getElementById("objeto1").style.backgroundColor = "black";
+            document.getElementById("desc").style.backgroundColor = "grey";
+            document.getElementById("desc").style.color = "#24eed6";
+            document.getElementById("img1").style.img = "none";
+            document.getElementById("img2").style.img = "none";
             document.getElementById("receta").style.backgroundColor = "black";
             document.getElementById("receta2").style.backgroundColor = "black";
             document.getElementById("lista").style.color = "#24eed6";
